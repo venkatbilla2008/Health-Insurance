@@ -1,8 +1,8 @@
-# 🏆 Health Insurance Claim Prediction — CDCxZerve Hackathon
+# 🏆 Health Insurance Claim Prediction
 
 > **Goal:** Predict the probability that a customer will file a health insurance claim (`target = 1`).
 
-This repository documents the iterative development of three model versions for the **Data & AI Day 2026 Hackathon** health insurance claim prediction challenge. Each version introduced new techniques and improvements, culminating in **v3** — the highest-performing pipeline.
+This repository documents the iterative development of three model versions for the **Hackathon** health insurance claim prediction challenge. Each version introduced new techniques and improvements, culminating in **v3** — the highest-performing pipeline.
 
 ---
 
@@ -189,7 +189,7 @@ python train_model_v3.py
 
 ## 📝 Competition Details
 
-- **Event:** Data & AI Day 2026 — CDCxZerve Hackathon
+- **Event:** Hackathon
 - **Task:** Binary classification — predict probability of health insurance claim
 - **Metric:** PR-AUC (Precision-Recall Area Under Curve)
 - **Dataset:** ~500K+ training samples, anonymized features (`feature_0` through `feature_50`)
